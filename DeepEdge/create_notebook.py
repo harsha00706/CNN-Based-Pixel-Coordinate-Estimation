@@ -2,7 +2,7 @@ import nbformat as nbf
 
 nb = nbf.v4.new_notebook()
 
-text_intro = """# Deep Learning Pixel Coordinate Prediction
+text_intro = """# CNN-Based Pixel Coordinate Prediction
 
 ## Problem Statement
 Predict the coordinates (x, y) of a pixel which has a value of 255 for 1 pixel in a given 50x50 pixel grayscale image and all other pixels are 0.
@@ -210,3 +210,4 @@ with open('solution.ipynb', 'w') as f:
     nbf.write(nb, f)
 
 print("Created solution.ipynb")
+
