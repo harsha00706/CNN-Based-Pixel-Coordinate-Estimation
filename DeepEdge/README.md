@@ -1,4 +1,4 @@
-# Deep Learning Pixel Coordinate Prediction
+# CNN-Based Pixel Coordinate Prediction
 
 This project implements a Deep Learning model to predict the (x, y) coordinates of a randomly assigned active pixel (value 255) in a 50x50 grayscale image.
 
@@ -35,3 +35,4 @@ python solution.py
 - **Dataset**: 3000 synthetic 50x50 grayscale images.
 - **Model**: A Convolutional Neural Network (CNN) with 2 Conv2D layers and 2 Dense layers.
 - **Results**: The model achieves a Mean Absolute Error (MAE) of < 1 pixel on the validation set.
+
